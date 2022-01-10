@@ -1,0 +1,300 @@
+{
+  "menu": [
+    {
+      "img": "img/tabs/vegy.jpg",
+      "altimg": "vegy",
+      "title": "Меню 'Фитнес'",
+      "descr": "Меню 'Фитнес' - это новый подход к приготовлению блюд: больше свежих овощей и фруктов. Продукт активных и здоровых людей. Это абсолютно новый продукт с оптимальной ценой и высоким качеством!",
+      "price": 9,
+      "parentSelector": ".menu .container"
+    },
+    {
+      "img": "img/tabs/post.jpg",
+      "altimg": "post",
+      "title": "Меню 'Постное'",
+      "descr": "Меню 'Постное' - это тщательный подбор ингредиентов: полное отсутствие продуктов животного происхождения, молоко из миндаля, овса, кокоса или гречки, правильное количество белков за счет тофу и импортных вегетарианских стейков.",
+      "price": 14,
+      "parentSelector": ".menu .container"
+    },
+    {
+      "img": "img/tabs/elite.jpg",
+      "altimg": "elite",
+      "title": "Меню 'Премиум'",
+      "descr": "В меню 'Премиум' мы используем не только красивый дизайн упаковки, но и качественное исполнение блюд. Красная рыба, морепродукты, фрукты - ресторанное меню без похода в ресторан!",
+      "price": 21,
+      "parentSelector": ".menu .container"
+    }
+  ],
+  "requests": [
+    {
+      "name": "asf",
+      "phone": "asf",
+      "id": 1
+    },
+    {
+      "name": "asf",
+      "phone": "saf",
+      "id": 2
+    },
+    {
+      "name": "asdf",
+      "phone": "sdf",
+      "id": 3
+    },
+    {
+      "name": "sadf",
+      "phone": "sdf",
+      "id": 4
+    },
+    {
+      "name": "saf",
+      "phone": "saf",
+      "id": 5
+    },
+    {
+      "name": "asdf",
+      "phone": "asdf",
+      "id": 6
+    },
+    {
+      "name": "asdf",
+      "phone": "asdf",
+      "id": 7
+    },
+    {
+      "name": "as",
+      "phone": "sadf",
+      "id": 8
+    },
+    {
+      "name": "sdf",
+      "phone": "asdf",
+      "id": 9
+    },
+    {
+      "name": "asdf",
+      "phone": "asdf",
+      "id": 10
+    },
+    {
+      "name": "Viktor",
+      "phone": "+380634804891",
+      "id": 11
+    },
+    {
+      "name": "1234",
+      "phone": "1234",
+      "id": 12
+    },
+    {
+      "name": "asdf",
+      "phone": "sadf",
+      "id": 13
+    },
+    {
+      "name": "Viktor",
+      "phone": "+380634804891",
+      "id": 14
+    },
+    {
+      "name": "Viktor",
+      "phone": "+380634804891",
+      "id": 15
+    },
+    {
+      "name": "Viktor",
+      "phone": "+380634804891",
+      "id": 16
+    },
+    {
+      "name": "Viktor",
+      "phone": "+380634804891",
+      "id": 17
+    },
+    {
+      "name": "Viktor",
+      "phone": "+380634804891",
+      "id": 18
+    },
+    {
+      "name": "Viktor",
+      "phone": "+380634804891",
+      "id": 19
+    },
+    {
+      "name": "Viktor Gavryliuk",
+      "phone": "+380634804891",
+      "id": 20
+    },
+    {
+      "name": "Viktor Gavryliuk",
+      "phone": "+380634804891",
+      "id": 21
+    },
+    {
+      "name": "Viktor Gavryliuk",
+      "phone": "+380634804891",
+      "id": 22
+    },
+    {
+      "name": "Viktor Gavryliuk",
+      "phone": "+380634804891",
+      "id": 23
+    },
+    {
+      "name": "Viktor Gavryliuk",
+      "phone": "+380634804891",
+      "id": 24
+    },
+    {
+      "name": "Viktor",
+      "phone": "+380634804891",
+      "id": 25
+    },
+    {
+      "name": "Viktor",
+      "phone": "+380634804891",
+      "id": 26
+    },
+    {
+      "name": "Viktor",
+      "phone": "+380634804891",
+      "id": 27
+    },
+    {
+      "name": "Viktor",
+      "phone": "+380634804891",
+      "id": 28
+    },
+    {
+      "name": "Viktor Gavryliuk",
+      "phone": "+380634804891",
+      "id": 29
+    },
+    {
+      "name": "Viktor Gavryliuk",
+      "phone": "+380634804891",
+      "id": 30
+    },
+    {
+      "name": "Viktor Gavryliuk",
+      "phone": "+380634804891",
+      "id": 31
+    },
+    {
+      "name": "Viktor",
+      "phone": "+380634804891",
+      "id": 32
+    },
+    {
+      "name": "Viktor",
+      "phone": "+380634804891",
+      "id": 33
+    },
+    {
+      "name": "Viktor",
+      "phone": "+380634804891",
+      "id": 34
+    },
+    {
+      "name": "Viktor",
+      "phone": "+380634804891",
+      "id": 35
+    },
+    {
+      "name": "Viktor Gavryliuk",
+      "phone": "+380634804891",
+      "id": 36
+    },
+    {
+      "name": "Viktor Gavryliuk",
+      "phone": "+380634804891",
+      "id": 37
+    },
+    {
+      "name": "Viktor",
+      "phone": "+380634804891",
+      "id": 38
+    },
+    {
+      "name": "Viktor",
+      "phone": "+380634804891",
+      "id": 39
+    },
+    {
+      "name": "Viktor",
+      "phone": "+380634804891",
+      "id": 40
+    },
+    {
+      "name": "Viktor Gavryliuk",
+      "phone": "+380634804891",
+      "id": 41
+    },
+    {
+      "name": "Viktor",
+      "phone": "+380634804891",
+      "id": 42
+    },
+    {
+      "name": "Viktor",
+      "phone": "+380634804891",
+      "id": 43
+    },
+    {
+      "name": "Viktor Gavryliuk",
+      "phone": "+380634804891",
+      "id": 44
+    },
+    {
+      "name": "Viktor Gavryliuk",
+      "phone": "+380634804891",
+      "id": 45
+    },
+    {
+      "name": "Viktor Gavryliuk",
+      "phone": "+380634804891",
+      "id": 46
+    },
+    {
+      "name": "Viktor",
+      "phone": "+380634804891",
+      "id": 47
+    },
+    {
+      "name": "Viktor",
+      "phone": "+380634804891",
+      "id": 48
+    },
+    {
+      "name": "Viktor",
+      "phone": "+380634804891",
+      "id": 49
+    },
+    {
+      "name": "Viktor",
+      "phone": "+380634804891",
+      "id": 50
+    },
+    {
+      "name": "Viktor",
+      "phone": "+380634804891",
+      "id": 51
+    },
+    {
+      "name": "Viktor",
+      "phone": "+380634804891",
+      "id": 52
+    },
+    {
+      "name": "Viktor",
+      "phone": "+380634804891",
+      "id": 53
+    },
+    {
+      "name": "Viktor",
+      "phone": "+380634804891",
+      "id": 54
+    }
+  ]
+}
