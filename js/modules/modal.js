@@ -112,17 +112,23 @@ const modal = (triggerSelector, modalSelector, timerId) => {
                     <div class="menu__item-total"><span>${this.price}</span> грн/день</div>
                 </div>
             `;
+      console.log(element);
       this.parent.append(element);
     }
   }
 
   try {
-    getResource('http://localhost:3000/menu')
-      .then(data => {
+    getResource('db.json')
+      .then(response => {
+        const data = response.menu;
+
+        console.log(data);
         console.log(Object.values(data))
+
         Object.values(data).forEach((info) => {
           new MenuCard(info).render();
         });
+
       });
   } catch (error) {
     console.log(error)

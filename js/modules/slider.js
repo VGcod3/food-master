@@ -151,5 +151,3 @@ function slider({ container, slide, nextArrow, prevArrow, totalCounter, currentC
 }
 
 export default slider;
-
-console.log("hello? world");

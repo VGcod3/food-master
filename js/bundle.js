@@ -307,17 +307,23 @@ const modal = (triggerSelector, modalSelector, timerId) => {
                     <div class="menu__item-total"><span>${this.price}</span> грн/день</div>
                 </div>
             `;
+      console.log(element);
       this.parent.append(element);
     }
   }
 
   try {
-    (0,_services_service__WEBPACK_IMPORTED_MODULE_0__.getResource)('http://localhost:3000/menu')
-      .then(data => {
+    (0,_services_service__WEBPACK_IMPORTED_MODULE_0__.getResource)('db.json')
+      .then(response => {
+        const data = response.menu;
+
+        console.log(data);
         console.log(Object.values(data))
+
         Object.values(data).forEach((info) => {
           new MenuCard(info).render();
         });
+
       });
   } catch (error) {
     console.log(error)
@@ -344,6 +350,7 @@ __webpack_require__.r(__webpack_exports__);
 function slider({ container, slide, nextArrow, prevArrow, totalCounter, currentCounter, wrapper, field }) {
   let offset = 0;
   let slideIndex = 1;
+
 
   const slides = document.querySelectorAll(slide),
     slider = document.querySelector(container),
@@ -737,7 +744,6 @@ __webpack_require__.r(__webpack_exports__);
 
 window.addEventListener('DOMContentLoaded', function () {
 
-	//open modal via timer
 	const timerId = setTimeout(() => {
 		(0,_modules_modal__WEBPACK_IMPORTED_MODULE_2__.openModal)(modalSelector, timerId)
 	}, 30000);
@@ -760,7 +766,6 @@ window.addEventListener('DOMContentLoaded', function () {
 });
 
 
-console.log(new Date().getMonth());
 })();
 
 /******/ })()
