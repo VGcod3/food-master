@@ -118,9 +118,9 @@ const modal = (triggerSelector, modalSelector, timerId) => {
   }
 
   try {
-    getResource('db.json')
-      .then(response => {
-        const data = response.menu;
+    getResource('menuDb.json')
+      .then(data => {
+        // const data = response.menu;
 
         console.log(data);
         console.log(Object.values(data))

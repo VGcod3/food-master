@@ -1,5 +1,5 @@
 import { closeModal, openModal } from "./modal";
-import {postData} from '../services/service'
+import { postData } from '../services/service'
 
 const forms = (formSelector, timerId) => {
 
@@ -31,9 +31,10 @@ const forms = (formSelector, timerId) => {
 
       const json = JSON.stringify(Object.fromEntries(formData.entries()));
 
-      postData('http://localhost:3000/requests', json)
-        .then(data => {
-          console.log(data);
+      postData('requestsDb.json', json)
+        .then(response => {
+          console.log(response);
+
           showThanksModal(message.success);
           statusMessage.remove();
         }).catch(() => {

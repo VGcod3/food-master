@@ -135,9 +135,10 @@ const forms = (formSelector, timerId) => {
 
       const json = JSON.stringify(Object.fromEntries(formData.entries()));
 
-      (0,_services_service__WEBPACK_IMPORTED_MODULE_1__.postData)('http://localhost:3000/requests', json)
-        .then(data => {
-          console.log(data);
+      (0,_services_service__WEBPACK_IMPORTED_MODULE_1__.postData)('requestsDb.json', json)
+        .then(response => {
+          console.log(response);
+
           showThanksModal(message.success);
           statusMessage.remove();
         }).catch(() => {
@@ -313,9 +314,9 @@ const modal = (triggerSelector, modalSelector, timerId) => {
   }
 
   try {
-    (0,_services_service__WEBPACK_IMPORTED_MODULE_0__.getResource)('db.json')
-      .then(response => {
-        const data = response.menu;
+    (0,_services_service__WEBPACK_IMPORTED_MODULE_0__.getResource)('menuDb.json')
+      .then(data => {
+        // const data = response.menu;
 
         console.log(data);
         console.log(Object.values(data))
